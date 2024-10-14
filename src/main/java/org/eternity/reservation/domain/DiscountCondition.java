@@ -42,7 +42,7 @@ public class DiscountCondition {
             if (sequence.equals(screening.getSequence())) {
                 return true;
             }
-        } if (isCombinedCondition()) {
+        } else if (isCombinedCondition()) {
             if (screening.isPlayedIn(dayOfWeek, interval.getStartTime(), interval.getEndTime()) &&
                     sequence.equals(screening.getSequence())) {
                 return true;
