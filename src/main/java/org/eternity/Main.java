@@ -7,7 +7,6 @@ import org.eternity.reservation.persistence.memory.*;
 import org.eternity.reservation.service.ReservationService;
 
 import java.time.LocalDateTime;
-import java.util.List;
 
 import static java.time.DayOfWeek.MONDAY;
 import static java.time.DayOfWeek.WEDNESDAY;
